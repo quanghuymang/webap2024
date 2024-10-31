@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApViet.Application\WebApViet.Application.csproj" />
+    <ProjectReference Include="..\WebApViet.Data.EF\WebApViet.Data.EF.csproj" />
+    <ProjectReference Include="..\WebApViet.Data\WebApViet.Data.csproj" />
+    <ProjectReference Include="..\WebApViet.infrastructure\WebApViet.infrastructure.csproj" />
+    <ProjectReference Include="..\WebApViet.Ultilities\WebApViet.Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>
